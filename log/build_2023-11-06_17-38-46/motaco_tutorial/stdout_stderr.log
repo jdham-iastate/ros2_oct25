@@ -1,0 +1,29 @@
+[35m[1mConsolidate compiler generated dependencies of target jdh_motaco[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/jdh_motaco.dir/src/jdh_motaco.cpp.o[0m
+[01m[K/home/rmplplus/ros2_oct25/src/motaco_tutorial/src/jdh_motaco.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/rmplplus/ros2_oct25/src/motaco_tutorial/src/jdh_motaco.cpp:145:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kattach_object_stage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  145 |   mtc::Stage* [01;35m[Kattach_object_stage[m[K =
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[100%] [32m[1mLinking CXX executable jdh_motaco[0m
+[100%] Built target jdh_motaco
+-- Install configuration: "Release"
+-- Installing: /home/rmplplus/ros2_oct25/install/motaco_tutorial/lib/motaco_tutorial/jdh_motaco
+-- Set runtime path of "/home/rmplplus/ros2_oct25/install/motaco_tutorial/lib/motaco_tutorial/jdh_motaco" to ""
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/launch
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/launch/motaco_demo.launch.py
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/launch/pick_place_demo.launch.py
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/ament_index/resource_index/package_run_dependencies/motaco_tutorial
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/ament_index/resource_index/parent_prefix_path/motaco_tutorial
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/ament_prefix_path.sh
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/path.sh
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/path.dsv
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.bash
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.sh
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.zsh
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.dsv
+-- Installing: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/package.dsv
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/ament_index/resource_index/packages/motaco_tutorial
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/cmake/motaco_tutorialConfig.cmake
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/cmake/motaco_tutorialConfig-version.cmake
+-- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/package.xml

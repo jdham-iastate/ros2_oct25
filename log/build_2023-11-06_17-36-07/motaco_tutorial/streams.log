@@ -1,0 +1,33 @@
+[0.342s] Invoking command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/motaco_tutorial -- -j8 -l8
+[0.419s] [35m[1mConsolidate compiler generated dependencies of target jdh_motaco[0m
+[0.458s] [ 50%] [32mBuilding CXX object CMakeFiles/jdh_motaco.dir/src/jdh_motaco.cpp.o[0m
+[6.880s] [01m[K/home/rmplplus/ros2_oct25/src/motaco_tutorial/src/jdh_motaco.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[6.880s] [01m[K/home/rmplplus/ros2_oct25/src/motaco_tutorial/src/jdh_motaco.cpp:145:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kattach_object_stage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[6.880s]   145 |   mtc::Stage* [01;35m[Kattach_object_stage[m[K =
+[6.880s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[13.077s] [100%] [32m[1mLinking CXX executable jdh_motaco[0m
+[13.446s] [100%] Built target jdh_motaco
+[13.463s] Invoked command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/motaco_tutorial -- -j8 -l8
+[13.511s] Invoking command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/motaco_tutorial
+[13.525s] -- Install configuration: "Release"
+[13.525s] -- Installing: /home/rmplplus/ros2_oct25/install/motaco_tutorial/lib/motaco_tutorial/jdh_motaco
+[13.526s] -- Set runtime path of "/home/rmplplus/ros2_oct25/install/motaco_tutorial/lib/motaco_tutorial/jdh_motaco" to ""
+[13.526s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/launch
+[13.526s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/launch/motaco_demo.launch.py
+[13.526s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/launch/pick_place_demo.launch.py
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/ament_index/resource_index/package_run_dependencies/motaco_tutorial
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/ament_index/resource_index/parent_prefix_path/motaco_tutorial
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/ament_prefix_path.sh
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/ament_prefix_path.dsv
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/path.sh
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/environment/path.dsv
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.bash
+[13.527s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.sh
+[13.528s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.zsh
+[13.528s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/local_setup.dsv
+[13.528s] -- Installing: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/package.dsv
+[13.529s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/ament_index/resource_index/packages/motaco_tutorial
+[13.529s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/cmake/motaco_tutorialConfig.cmake
+[13.529s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/cmake/motaco_tutorialConfig-version.cmake
+[13.529s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/motaco_tutorial/share/motaco_tutorial/package.xml
+[13.530s] Invoked command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/motaco_tutorial

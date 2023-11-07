@@ -1,0 +1,4 @@
+source;share/motaco_tutorial/local_setup.bash
+source;share/motaco_tutorial/local_setup.dsv
+source;share/motaco_tutorial/local_setup.sh
+source;share/motaco_tutorial/local_setup.zsh

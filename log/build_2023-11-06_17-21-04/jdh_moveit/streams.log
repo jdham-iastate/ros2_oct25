@@ -1,0 +1,22 @@
+[0.467s] Invoking command in '/home/rmplplus/ros2_oct25/build/jdh_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/jdh_moveit -- -j8 -l8
+[0.584s] [100%] Built target jdh_moveit
+[1.009s] Invoked command in '/home/rmplplus/ros2_oct25/build/jdh_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/jdh_moveit -- -j8 -l8
+[1.080s] Invoking command in '/home/rmplplus/ros2_oct25/build/jdh_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/jdh_moveit
+[1.092s] -- Install configuration: "Release"
+[1.092s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/lib/jdh_moveit/jdh_moveit
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/ament_index/resource_index/package_run_dependencies/jdh_moveit
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/ament_index/resource_index/parent_prefix_path/jdh_moveit
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/ament_prefix_path.sh
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/ament_prefix_path.dsv
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/path.sh
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/path.dsv
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.bash
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.sh
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.zsh
+[1.093s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.dsv
+[1.094s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/package.dsv
+[1.094s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/ament_index/resource_index/packages/jdh_moveit
+[1.094s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/cmake/jdh_moveitConfig.cmake
+[1.094s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/cmake/jdh_moveitConfig-version.cmake
+[1.094s] -- Up-to-date: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/package.xml
+[1.096s] Invoked command in '/home/rmplplus/ros2_oct25/build/jdh_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/jdh_moveit

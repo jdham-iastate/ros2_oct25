@@ -1,0 +1,4 @@
+[01m[K/home/rmplplus/ros2_oct25/src/motaco_tutorial/src/jdh_motaco.cpp:[m[K In member function ‘[01m[Kmoveit::task_constructor::Task MTCTaskNode::createTask()[m[K’:
+[01m[K/home/rmplplus/ros2_oct25/src/motaco_tutorial/src/jdh_motaco.cpp:145:15:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kattach_object_stage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+  145 |   mtc::Stage* [01;35m[Kattach_object_stage[m[K = nullptr;  // Forward attach_object_stage to place pose generator
+      |               [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K

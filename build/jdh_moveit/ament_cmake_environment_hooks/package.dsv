@@ -1,0 +1,4 @@
+source;share/jdh_moveit/local_setup.bash
+source;share/jdh_moveit/local_setup.dsv
+source;share/jdh_moveit/local_setup.sh
+source;share/jdh_moveit/local_setup.zsh

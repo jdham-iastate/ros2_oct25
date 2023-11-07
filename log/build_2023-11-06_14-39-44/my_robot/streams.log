@@ -1,0 +1,33 @@
+[1.199s] Invoking command in '/home/rmplplus/ros2_oct25/src/my_robot': PYTHONPATH=/home/rmplplus/ros2_oct25/build/my_robot/prefix_override:/home/rmplplus/ros2_oct25/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/rmplplus/ros2_oct25/build/my_robot/build install --record /home/rmplplus/ros2_oct25/build/my_robot/install.log --single-version-externally-managed
+[1.518s] running egg_info
+[1.519s] creating ../../build/my_robot/my_robot.egg-info
+[1.519s] writing ../../build/my_robot/my_robot.egg-info/PKG-INFO
+[1.519s] writing dependency_links to ../../build/my_robot/my_robot.egg-info/dependency_links.txt
+[1.520s] writing entry points to ../../build/my_robot/my_robot.egg-info/entry_points.txt
+[1.520s] writing requirements to ../../build/my_robot/my_robot.egg-info/requires.txt
+[1.520s] writing top-level names to ../../build/my_robot/my_robot.egg-info/top_level.txt
+[1.520s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.522s] reading manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.523s] writing manifest file '../../build/my_robot/my_robot.egg-info/SOURCES.txt'
+[1.523s] running build
+[1.523s] running build_py
+[1.523s] creating /home/rmplplus/ros2_oct25/build/my_robot/build
+[1.523s] creating /home/rmplplus/ros2_oct25/build/my_robot/build/lib
+[1.523s] creating /home/rmplplus/ros2_oct25/build/my_robot/build/lib/my_robot
+[1.523s] copying my_robot/__init__.py -> /home/rmplplus/ros2_oct25/build/my_robot/build/lib/my_robot
+[1.523s] running install
+[1.523s] running install_lib
+[1.524s] creating /home/rmplplus/ros2_oct25/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.524s] copying /home/rmplplus/ros2_oct25/build/my_robot/build/lib/my_robot/__init__.py -> /home/rmplplus/ros2_oct25/install/my_robot/lib/python3.10/site-packages/my_robot
+[1.525s] byte-compiling /home/rmplplus/ros2_oct25/install/my_robot/lib/python3.10/site-packages/my_robot/__init__.py to __init__.cpython-310.pyc
+[1.525s] running install_data
+[1.525s] creating /home/rmplplus/ros2_oct25/install/my_robot/share/ament_index
+[1.525s] creating /home/rmplplus/ros2_oct25/install/my_robot/share/ament_index/resource_index
+[1.526s] creating /home/rmplplus/ros2_oct25/install/my_robot/share/ament_index/resource_index/packages
+[1.526s] copying resource/my_robot -> /home/rmplplus/ros2_oct25/install/my_robot/share/ament_index/resource_index/packages
+[1.526s] copying package.xml -> /home/rmplplus/ros2_oct25/install/my_robot/share/my_robot
+[1.526s] running install_egg_info
+[1.527s] Copying ../../build/my_robot/my_robot.egg-info to /home/rmplplus/ros2_oct25/install/my_robot/lib/python3.10/site-packages/my_robot-0.0.0-py3.10.egg-info
+[1.528s] running install_scripts
+[1.550s] writing list of installed files to '/home/rmplplus/ros2_oct25/build/my_robot/install.log'
+[1.577s] Invoked command in '/home/rmplplus/ros2_oct25/src/my_robot' returned '0': PYTHONPATH=/home/rmplplus/ros2_oct25/build/my_robot/prefix_override:/home/rmplplus/ros2_oct25/install/my_robot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_robot build --build-base /home/rmplplus/ros2_oct25/build/my_robot/build install --record /home/rmplplus/ros2_oct25/build/my_robot/install.log --single-version-externally-managed

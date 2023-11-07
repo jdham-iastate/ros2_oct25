@@ -1,0 +1,107 @@
+[0.353s] Invoking command in '/home/rmplplus/ros2_oct25/build/jdh_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/rmplplus/ros2_oct25/src/jdh_moveit -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rmplplus/ros2_oct25/install/jdh_moveit
+[0.425s] -- The C compiler identification is GNU 11.4.0
+[0.487s] -- The CXX compiler identification is GNU 11.4.0
+[0.496s] -- Detecting C compiler ABI info
+[0.584s] -- Detecting C compiler ABI info - done
+[0.591s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.592s] -- Detecting C compile features
+[0.592s] -- Detecting C compile features - done
+[0.595s] -- Detecting CXX compiler ABI info
+[0.694s] -- Detecting CXX compiler ABI info - done
+[0.703s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.703s] -- Detecting CXX compile features
+[0.703s] -- Detecting CXX compile features - done
+[0.720s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.958s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.158s] -- Found moveit_ros_planning_interface: 2.8.0 (/home/rmplplus/ws_moveit/install/moveit_ros_planning_interface/share/moveit_ros_planning_interface/cmake)
+[1.419s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[1.534s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.552s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.574s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.647s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.740s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[2.860s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.994s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.005s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.182s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.219s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.286s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.314s] -- Found Threads: TRUE  
+[3.516s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[3.588s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[3.760s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.960s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.960s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.684s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.327s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.628s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[5.977s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.978s] -- Found moveit_visual_tools: 4.1.0 (/home/rmplplus/ws_moveit/install/moveit_visual_tools/share/moveit_visual_tools/cmake)
+[6.490s] -- Setting OGRE_DIR to: '/opt/ros/humble/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[6.491s] -- Found OGRE
+[6.491s] --   static     : OFF
+[6.491s] --   components : HLMS;MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[6.491s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.492s] --   media      : /opt/ros/humble/opt/rviz_ogre_vendor/share/OGRE/Media
+[6.492s] -- OGRE_LIBRARIES: OgreHLMS;OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[6.492s] -- OGRE_LIBRARY_DIRS: /opt/ros/humble/opt/rviz_ogre_vendor/lib
+[6.492s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[6.492s] -- OGRE_PLUGIN_DIR: /opt/ros/humble/opt/rviz_ogre_vendor/lib/OGRE
+[6.492s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.493s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[6.493s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.493s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/humble/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[6.524s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[6.535s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[6.703s] -- Found X11: /usr/include   
+[6.703s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[6.804s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[6.804s] -- Looking for gethostbyname
+[6.895s] -- Looking for gethostbyname - found
+[6.895s] -- Looking for connect
+[6.984s] -- Looking for connect - found
+[6.984s] -- Looking for remove
+[7.073s] -- Looking for remove - found
+[7.074s] -- Looking for shmat
+[7.164s] -- Looking for shmat - found
+[7.164s] -- Looking for IceConnectionNumber in ICE
+[7.253s] -- Looking for IceConnectionNumber in ICE - found
+[7.256s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_RELEASE: _render_system_gl_static_library_abs-NOTFOUND
+[7.256s] -- rviz_ogre_vendor::RenderSystem_GL for IMPORTED_LOCATION_DEBUG: _render_system_gl_static_library_abs-NOTFOUND
+[8.275s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.275s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rmplplus/ros2_oct25/src/jdh_moveit/include>
+[8.276s] -- Configured cppcheck exclude dirs and/or files: 
+[8.277s] -- Added test 'lint_cmake' to check CMake code style
+[8.279s] -- Added test 'uncrustify' to check C / C++ code style
+[8.279s] -- Configured uncrustify additional arguments: 
+[8.281s] -- Added test 'xmllint' to check XML markup files
+[8.292s] -- Configuring done
+[8.344s] -- Generating done
+[8.347s] -- Build files have been written to: /home/rmplplus/ros2_oct25/build/jdh_moveit
+[8.366s] Invoked command in '/home/rmplplus/ros2_oct25/build/jdh_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/rmplplus/ros2_oct25/src/jdh_moveit -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rmplplus/ros2_oct25/install/jdh_moveit
+[8.368s] Invoking command in '/home/rmplplus/ros2_oct25/build/jdh_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/jdh_moveit -- -j8 -l8
+[8.447s] [ 50%] [32mBuilding CXX object CMakeFiles/jdh_moveit.dir/src/jdh_moveit.cpp.o[0m
+[20.975s] [100%] [32m[1mLinking CXX executable jdh_moveit[0m
+[21.430s] [100%] Built target jdh_moveit
+[21.444s] Invoked command in '/home/rmplplus/ros2_oct25/build/jdh_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/jdh_moveit -- -j8 -l8
+[21.506s] Invoking command in '/home/rmplplus/ros2_oct25/build/jdh_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/jdh_moveit
+[21.517s] -- Install configuration: "Release"
+[21.518s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/lib/jdh_moveit/jdh_moveit
+[21.518s] -- Set runtime path of "/home/rmplplus/ros2_oct25/install/jdh_moveit/lib/jdh_moveit/jdh_moveit" to ""
+[21.518s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/ament_index/resource_index/package_run_dependencies/jdh_moveit
+[21.518s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/ament_index/resource_index/parent_prefix_path/jdh_moveit
+[21.519s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/ament_prefix_path.sh
+[21.519s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/ament_prefix_path.dsv
+[21.519s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/path.sh
+[21.519s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/environment/path.dsv
+[21.519s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.bash
+[21.520s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.sh
+[21.520s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.zsh
+[21.520s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/local_setup.dsv
+[21.520s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/package.dsv
+[21.520s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/ament_index/resource_index/packages/jdh_moveit
+[21.520s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/cmake/jdh_moveitConfig.cmake
+[21.521s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/cmake/jdh_moveitConfig-version.cmake
+[21.521s] -- Installing: /home/rmplplus/ros2_oct25/install/jdh_moveit/share/jdh_moveit/package.xml
+[21.522s] Invoked command in '/home/rmplplus/ros2_oct25/build/jdh_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/jdh_moveit

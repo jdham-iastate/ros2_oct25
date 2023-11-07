@@ -1,0 +1,28 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/rmplplus/ws_moveit/build/jdhmove_pkg",
+        "/home/rmplplus/ws_moveit/install/jdhmove_pkg/lib/python3.10/site-packages",
+        "/home/rmplplus/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/rmplplus/ws_moveit/install/moveit_py/local/lib/python3.10/dist-packages",
+        "/home/rmplplus/ws_moveit/install/moveit_msgs/local/lib/python3.10/dist-packages",
+        "/home/rmplplus/ws_moveit/build/moveit_configs_utils",
+        "/home/rmplplus/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/rmplplus/ros2_ws/build/my_robot_controller",
+        "/home/rmplplus/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/rmplplus/ws_moveit/build/jdhmove_pkg",
+        "/home/rmplplus/ws_moveit/install/jdhmove_pkg/lib/python3.10/site-packages",
+        "/home/rmplplus/ws_moveit/install/moveit_task_constructor_msgs/local/lib/python3.10/dist-packages",
+        "/home/rmplplus/ws_moveit/install/moveit_py/local/lib/python3.10/dist-packages",
+        "/home/rmplplus/ws_moveit/install/moveit_msgs/local/lib/python3.10/dist-packages",
+        "/home/rmplplus/ws_moveit/build/moveit_configs_utils",
+        "/home/rmplplus/ws_moveit/install/moveit_configs_utils/lib/python3.10/site-packages",
+        "/home/rmplplus/ros2_ws/build/my_robot_controller",
+        "/home/rmplplus/ros2_ws/install/my_robot_controller/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

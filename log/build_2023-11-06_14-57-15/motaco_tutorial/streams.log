@@ -1,0 +1,68 @@
+[0.313s] Invoking command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/rmplplus/ros2_oct25/src/motaco_tutorial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rmplplus/ros2_oct25/install/motaco_tutorial
+[0.388s] -- The C compiler identification is GNU 11.4.0
+[0.450s] -- The CXX compiler identification is GNU 11.4.0
+[0.458s] -- Detecting C compiler ABI info
+[0.546s] -- Detecting C compiler ABI info - done
+[0.554s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.554s] -- Detecting C compile features
+[0.554s] -- Detecting C compile features - done
+[0.558s] -- Detecting CXX compiler ABI info
+[0.655s] -- Detecting CXX compiler ABI info - done
+[0.666s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.666s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.677s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.916s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.102s] -- Found moveit_task_constructor_core: 0.1.3 (/home/rmplplus/ws_moveit/install/moveit_task_constructor_core/share/moveit_task_constructor_core/cmake)
+[1.249s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.267s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.289s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.320s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.363s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.803s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.924s] -- Found parameter_traits: 0.3.6 (/opt/ros/humble/share/parameter_traits/cmake)
+[2.067s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.079s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.244s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.279s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.351s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.381s] -- Found Threads: TRUE  
+[2.576s] -- Found rclcpp_lifecycle: 16.0.6 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[2.645s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[2.822s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[3.209s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.210s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.654s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.285s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[5.527s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[5.809s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[6.600s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.742s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.743s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/rmplplus/ros2_oct25/src/motaco_tutorial/include>
+[6.743s] -- Configured cppcheck exclude dirs and/or files: 
+[6.744s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.746s] -- Added test 'lint_cmake' to check CMake code style
+[6.748s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.749s] -- Added test 'uncrustify' to check C / C++ code style
+[6.750s] -- Configured uncrustify additional arguments: 
+[6.751s] -- Added test 'xmllint' to check XML markup files
+[6.754s] -- Configuring done
+[6.792s] -- Generating done
+[6.794s] -- Build files have been written to: /home/rmplplus/ros2_oct25/build/motaco_tutorial
+[6.809s] Invoked command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake /home/rmplplus/ros2_oct25/src/motaco_tutorial -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/rmplplus/ros2_oct25/install/motaco_tutorial
+[6.812s] Invoking command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/motaco_tutorial -- -j8 -l8
+[6.898s] [ 50%] [32mBuilding CXX object CMakeFiles/jdh_motaco.dir/src/jdh_motaco.cpp.o[0m
+[17.873s] [100%] [32m[1mLinking CXX executable jdh_motaco[0m
+[18.227s] [100%] Built target jdh_motaco
+[18.241s] Invoked command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --build /home/rmplplus/ros2_oct25/build/motaco_tutorial -- -j8 -l8
+[18.288s] Invoking command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/motaco_tutorial
+[18.299s] -- Install configuration: "Release"
+[18.299s] -- Installing: /home/rmplplus/ros2_oct25/install/motaco_tutorial/lib/motaco_tutorial/jdh_motaco
+[18.300s] -- Set runtime path of "/home/rmplplus/ros2_oct25/install/motaco_tutorial/lib/motaco_tutorial/jdh_motaco" to ""
+[18.300s] [31mCMake Error at cmake_install.cmake:66 (file):
+[18.300s]   file INSTALL cannot find
+[18.300s]   "/home/rmplplus/ros2_oct25/src/motaco_tutorial/launch": No such file or
+[18.300s]   directory.
+[18.300s] 
+[18.300s] [0m
+[18.302s] Invoked command in '/home/rmplplus/ros2_oct25/build/motaco_tutorial' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rmplplus/ros2_oct25/install/my_robot:/home/rmplplus/ws_moveit/install/jdhmove_pkg:/home/rmplplus/ws_moveit/install/moveit_configs_utils:/home/rmplplus/ros2_ws/install/my_robot_controller:/opt/ros/humble /usr/bin/cmake --install /home/rmplplus/ros2_oct25/build/motaco_tutorial
